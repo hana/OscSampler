@@ -118,7 +118,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 820.0, 782.0, 30.0, 30.0 ]
+					"patching_rect" : [ 810.0, 782.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -292,8 +292,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 746.0, 673.0, 32.0, 22.0 ],
-					"text" : "gate"
+					"patching_rect" : [ 736.0, 702.0, 52.0, 22.0 ],
+					"text" : "gate 1 1"
 				}
 
 			}
@@ -315,7 +315,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 746.0, 890.0, 253.0, 20.0 ],
+					"patching_rect" : [ 736.0, 890.0, 253.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 157.0, 187.0, 20.0 ]
 				}
@@ -328,7 +328,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 746.0, 782.0, 72.0, 22.0 ],
+					"patching_rect" : [ 736.0, 782.0, 72.0, 22.0 ],
 					"text" : "prepend set"
 				}
 
@@ -414,7 +414,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 456.0, 670.799999999999955, 77.0, 22.0 ],
+					"patching_rect" : [ 456.0, 702.0, 77.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "unixtime.js",
 						"parameter_enable" : 0
@@ -431,7 +431,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 456.0, 630.0, 322.0, 22.0 ],
+					"patching_rect" : [ 456.0, 630.0, 332.0, 22.0 ],
 					"text" : "zl.slice 1"
 				}
 
@@ -779,7 +779,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-84", 0 ],
-					"midpoints" : [ 715.5, 600.0, 789.0, 600.0, 789.0, 669.0, 755.5, 669.0 ],
+					"midpoints" : [ 715.5, 585.0, 798.0, 585.0, 798.0, 684.0, 745.5, 684.0 ],
 					"source" : [ "obj-118", 3 ]
 				}
 
@@ -787,7 +787,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-84", 0 ],
-					"midpoints" : [ 658.833333333333371, 609.0, 789.0, 609.0, 789.0, 661.0, 755.5, 661.0 ],
+					"midpoints" : [ 658.833333333333371, 601.0, 798.0, 601.0, 798.0, 686.0, 745.5, 686.0 ],
 					"source" : [ "obj-118", 1 ]
 				}
 
@@ -870,7 +870,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-84", 0 ],
-					"midpoints" : [ 643.5, 360.0, 807.0, 360.0, 807.0, 660.0, 755.5, 660.0 ],
+					"midpoints" : [ 643.5, 360.0, 807.0, 360.0, 807.0, 687.0, 745.5, 687.0 ],
 					"source" : [ "obj-143", 1 ]
 				}
 
@@ -934,7 +934,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-55", 0 ],
-					"midpoints" : [ 185.5, 870.0, 755.5, 870.0 ],
+					"midpoints" : [ 185.5, 870.0, 745.5, 870.0 ],
 					"order" : 0,
 					"source" : [ "obj-158", 5 ]
 				}
@@ -1014,7 +1014,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-84", 0 ],
-					"midpoints" : [ 527.5, 615.0, 789.0, 615.0, 789.0, 669.0, 755.5, 669.0 ],
+					"midpoints" : [ 527.5, 615.0, 798.0, 615.0, 798.0, 687.0, 745.5, 687.0 ],
 					"source" : [ "obj-28", 1 ]
 				}
 
@@ -1036,6 +1036,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-121", 0 ],
+					"midpoints" : [ 465.5, 662.0, 899.5, 662.0 ],
 					"order" : 0,
 					"source" : [ "obj-34", 0 ]
 				}
@@ -1160,7 +1161,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-148", 0 ],
-					"midpoints" : [ 755.5, 723.199999999999932, 829.5, 723.199999999999932 ],
+					"midpoints" : [ 745.5, 757.199999999999932, 819.5, 757.199999999999932 ],
 					"order" : 0,
 					"source" : [ "obj-84", 0 ]
 				}
@@ -1198,6 +1199,13 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "240209-135547.txt",
+				"bootpath" : "~/Desktop/OscSampler/log",
+				"patcherrelativepath" : "../log",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "diff.maxpat",
 				"bootpath" : "~/Desktop/OscSampler/patchers",
 				"patcherrelativepath" : ".",
