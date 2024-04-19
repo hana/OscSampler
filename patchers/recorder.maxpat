@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 850.0, 409.0, 111.0, 22.0 ],
+					"text" : "patcher_getlogpath"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-17",
 					"maxclass" : "newobj",
@@ -246,6 +258,7 @@
 							"parameter_longname" : "live.numbox[1]",
 							"parameter_mmax" : 65535.0,
 							"parameter_mmin" : 1.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.numbox[1]",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -275,6 +288,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "IP_4",
 							"parameter_mmax" : 255.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "IP_4",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -304,6 +318,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "IP_3",
 							"parameter_mmax" : 255.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "IP_3",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -333,6 +348,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "IP_2",
 							"parameter_mmax" : 255.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "IP_2",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -362,6 +378,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "IP_1",
 							"parameter_mmax" : 255.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "IP_1",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -438,6 +455,7 @@
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "live.text",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -641,7 +659,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1396.0, 493.0, 86.0, 20.0 ],
+					"patching_rect" : [ 1396.0, 517.0, 86.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 113.0, 86.0, 20.0 ],
 					"text" : "Record Start ::"
@@ -654,7 +672,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1396.0, 471.0, 55.0, 20.0 ],
+					"patching_rect" : [ 1396.0, 495.0, 55.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 123.0, 113.0, 55.0, 20.0 ],
 					"text" : "13:23:17"
@@ -668,7 +686,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1396.0, 434.0, 72.0, 22.0 ],
+					"patching_rect" : [ 1396.0, 458.0, 72.0, 22.0 ],
 					"text" : "prepend set"
 				}
 
@@ -680,7 +698,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1396.0, 395.0, 133.0, 22.0 ],
+					"patching_rect" : [ 1396.0, 409.0, 133.0, 22.0 ],
 					"text" : "sprintf %.2d:%.2d:%.2d"
 				}
 
@@ -692,7 +710,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1396.0, 360.0, 55.0, 22.0 ],
+					"patching_rect" : [ 1396.5, 365.0, 55.0, 22.0 ],
 					"text" : "zl.slice 3"
 				}
 
@@ -716,7 +734,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1048.0, 401.0, 132.0, 22.0 ],
+					"patching_rect" : [ 1048.0, 409.0, 132.0, 22.0 ],
 					"text" : "240208-132317.txt"
 				}
 
@@ -728,7 +746,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1161.0, 360.0, 219.0, 22.0 ],
+					"patching_rect" : [ 1161.5, 365.0, 219.0, 22.0 ],
 					"text" : "sprintf %d%.2d%.2d-%.2d%.2d%.2d.txt"
 				}
 
@@ -745,7 +763,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -984,7 +1002,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 1161.0, 329.0, 41.0, 22.0 ],
+					"patching_rect" : [ 1161.0, 325.0, 41.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1015,7 +1033,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 854.0, 342.0, 39.0, 22.0 ],
+					"patching_rect" : [ 850.5, 365.0, 39.0, 22.0 ],
 					"text" : "r #0lb"
 				}
 
@@ -1064,31 +1082,6 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 850.0, 458.0, 217.0, 22.0 ],
 					"text" : "combine path ../log/ test.txt @triggers 2"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-24",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 854.0, 374.0, 32.0, 22.0 ],
-					"text" : "path"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-21",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 854.0, 401.0, 67.0, 22.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
-					"text" : "thispatcher"
 				}
 
 			}
@@ -1212,7 +1205,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 711.0, 360.0, 88.5, 22.0 ],
+					"patching_rect" : [ 711.0, 365.0, 89.0, 22.0 ],
 					"text" : "t b l"
 				}
 
@@ -1273,6 +1266,7 @@
 							"parameter_longname" : "live.numbox",
 							"parameter_mmax" : 65535.0,
 							"parameter_mmin" : 1.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -1327,6 +1321,7 @@
 							"parameter_enum" : [ "stop", "record" ],
 							"parameter_longname" : "live.tab",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.tab",
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 9
@@ -1380,6 +1375,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-103", 0 ],
 					"source" : [ "obj-104", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-31", 0 ],
+					"source" : [ "obj-11", 0 ]
 				}
 
 			}
@@ -1566,22 +1568,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-31", 0 ],
-					"source" : [ "obj-21", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
 					"source" : [ "obj-22", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-21", 0 ],
-					"source" : [ "obj-24", 0 ]
 				}
 
 			}
@@ -1741,7 +1729,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-24", 0 ],
+					"destination" : [ "obj-11", 0 ],
 					"source" : [ "obj-48", 0 ]
 				}
 
@@ -1922,6 +1910,13 @@
 		"dependency_cache" : [ 			{
 				"name" : "ht.unixtime.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "patcher_getlogpath.maxpat",
+				"bootpath" : "~/Desktop/OscSampler/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
 			}
  ],
 		"autosave" : 0

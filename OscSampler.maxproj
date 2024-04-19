@@ -2,7 +2,7 @@
 	"name" : "OscSampler",
 	"version" : 1,
 	"creationdate" : 3790158612,
-	"modificationdate" : 3796366529,
+	"modificationdate" : 3796382838,
 	"viewrect" : [ 50.0, 150.0, 300.0, 500.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -24,6 +24,16 @@
 			"player.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
+			}
+,
+			"patcher_getlogpath.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Desktop/OscSampler/patchers",
+					"projectrelativepath" : "./patchers"
+				}
+
 			}
 ,
 			"recorder.maxpat" : 			{
