@@ -57,7 +57,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 285.0, 120.0, 81.0, 22.0 ],
+					"patching_rect" : [ 264.0, 120.0, 81.0, 22.0 ],
 					"text" : "regexp .+/(.+)"
 				}
 
@@ -141,7 +141,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 301.0, 158.0, 94.0, 22.0 ],
+					"patching_rect" : [ 280.0, 158.0, 94.0, 22.0 ],
 					"text" : "prepend symbol"
 				}
 
@@ -156,7 +156,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 285.0, 39.0, 116.0, 61.0 ],
+					"patching_rect" : [ 264.0, 39.0, 116.0, 61.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 187.0, 83.0 ],
 					"saved_attribute_attributes" : 					{
@@ -624,10 +624,10 @@
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 121.0, 158.0, 39.0, 22.0 ],
-					"text" : "folder"
+					"numoutlets" : 1,
+					"outlettype" : [ "clear" ],
+					"patching_rect" : [ 121.0, 158.0, 125.0, 22.0 ],
+					"text" : "patcher_sorted_folder"
 				}
 
 			}
@@ -866,7 +866,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
-					"midpoints" : [ 310.5, 187.0, 130.5, 187.0 ],
+					"midpoints" : [ 289.5, 187.0, 130.5, 187.0 ],
 					"source" : [ "obj-147", 0 ]
 				}
 
@@ -1152,6 +1152,26 @@
 				"name" : "patcher_getlogpath.maxpat",
 				"bootpath" : "~/Desktop/OscSampler/patchers",
 				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "patcher_sorted_folder.maxpat",
+				"bootpath" : "~/Desktop/OscSampler/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sorted-folder.js",
+				"bootpath" : "~/Desktop/OscSampler/code",
+				"patcherrelativepath" : "../code",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
 				"type" : "JSON",
 				"implicit" : 1
 			}

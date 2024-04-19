@@ -2,7 +2,7 @@
 	"name" : "OscSampler",
 	"version" : 1,
 	"creationdate" : 3790158612,
-	"modificationdate" : 3796382838,
+	"modificationdate" : 3796407247,
 	"viewrect" : [ 50.0, 150.0, 300.0, 500.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -21,22 +21,22 @@
 				"local" : 1
 			}
 ,
+			"patcher_getlogpath.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"player.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"patcher_getlogpath.maxpat" : 			{
+			"recorder.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Desktop/OscSampler/patchers",
-					"projectrelativepath" : "./patchers"
-				}
-
+				"local" : 1
 			}
 ,
-			"recorder.maxpat" : 			{
+			"patcher_sorted_folder.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -45,6 +45,11 @@
 ,
 		"code" : 		{
 			"unixtime.js" : 			{
+				"kind" : "javascript",
+				"local" : 1
+			}
+,
+			"sorted-folder.js" : 			{
 				"kind" : "javascript",
 				"local" : 1
 			}
