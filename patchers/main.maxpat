@@ -128,7 +128,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 46.0, 744.0, 145.5, 12.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 187.5, 182.0, 195.0, 12.0 ]
+					"presentation_rect" : [ 188.0, 178.0, 195.0, 12.0 ]
 				}
 
 			}
@@ -142,7 +142,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 37.0, 767.0, 29.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 187.5, 182.0, 29.0, 18.0 ],
+					"presentation_rect" : [ 188.0, 178.0, 29.0, 18.0 ],
 					"text" : "Host"
 				}
 
@@ -157,7 +157,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 211.0, 767.0, 28.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 316.5, 183.0, 28.0, 18.0 ],
+					"presentation_rect" : [ 317.0, 179.0, 28.0, 18.0 ],
 					"text" : "Port"
 				}
 
@@ -184,7 +184,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 246.0, 768.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 346.5, 185.0, 36.0, 15.0 ],
+					"presentation_rect" : [ 347.0, 181.0, 36.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 50000.0 ],
@@ -214,7 +214,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 163.0, 768.0, 28.5, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 291.5, 184.0, 23.0, 15.0 ],
+					"presentation_rect" : [ 292.0, 180.0, 23.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 1.0 ],
@@ -244,7 +244,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 132.0, 768.0, 28.5, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 266.5, 184.0, 23.0, 15.0 ],
+					"presentation_rect" : [ 267.0, 180.0, 23.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 0.0 ],
@@ -274,7 +274,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 101.0, 768.0, 28.5, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 242.5, 184.0, 23.0, 15.0 ],
+					"presentation_rect" : [ 243.0, 180.0, 23.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 0.0 ],
@@ -304,7 +304,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 70.0, 768.0, 28.5, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 218.5, 184.0, 23.0, 15.0 ],
+					"presentation_rect" : [ 219.0, 180.0, 23.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 127 ],
@@ -401,7 +401,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 29.0, 556.0, 199.0, 179.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 188.0, 0.0, 194.0, 180.0 ],
+					"presentation_rect" : [ 188.0, 0.0, 194.0, 169.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -484,7 +484,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 29.0, 311.0, 191.0, 183.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 186.0, 200.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 186.0, 196.0 ],
 					"viewvisibility" : 1
 				}
 

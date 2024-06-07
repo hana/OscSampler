@@ -1170,12 +1170,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "thru.maxpat",
-				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "unixtime.js",
 				"bootpath" : "~/Desktop/OscSampler/code",
 				"patcherrelativepath" : "../code",

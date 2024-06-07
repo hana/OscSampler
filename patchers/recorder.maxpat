@@ -506,26 +506,30 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 10.0,
 					"id" : "obj-96",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1075.0, 595.0, 83.0, 20.0 ],
+					"patching_rect" : [ 1075.0, 595.0, 72.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 157.0, 83.0, 20.0 ],
+					"presentation_rect" : [ 1.0, 157.0, 72.0, 18.0 ],
 					"text" : "Output Path ::"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 10.0,
 					"id" : "obj-94",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1075.0, 568.0, 151.0, 20.0 ],
+					"patching_rect" : [ 1075.0, 568.0, 140.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 179.0, 176.0, 20.0 ],
+					"presentation_rect" : [ 1.0, 179.0, 162.0, 18.0 ],
 					"text" : "log/240208-132317.txt"
 				}
 
@@ -544,13 +548,15 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 10.0,
 					"id" : "obj-91",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 499.0, 350.0, 106.0, 20.0 ],
+					"patching_rect" : [ 499.0, 350.0, 90.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 135.0, 106.0, 20.0 ],
+					"presentation_rect" : [ 0.0, 135.0, 90.0, 18.0 ],
 					"text" : "Record Duration ::"
 				}
 
@@ -577,7 +583,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 501.0, 324.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 123.0, 134.0, 54.0, 22.0 ]
+					"presentation_rect" : [ 122.5, 133.0, 52.5, 22.0 ]
 				}
 
 			}
@@ -655,26 +661,30 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 10.0,
 					"id" : "obj-53",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1396.0, 517.0, 86.0, 20.0 ],
+					"patching_rect" : [ 1396.0, 517.0, 74.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 113.0, 86.0, 20.0 ],
+					"presentation_rect" : [ 0.0, 113.0, 74.0, 18.0 ],
 					"text" : "Record Start ::"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 10.0,
 					"id" : "obj-42",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1396.0, 495.0, 55.0, 20.0 ],
+					"patching_rect" : [ 1396.0, 495.0, 50.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 123.0, 113.0, 55.0, 20.0 ],
+					"presentation_rect" : [ 123.0, 113.0, 50.0, 18.0 ],
 					"text" : "13:23:17"
 				}
 

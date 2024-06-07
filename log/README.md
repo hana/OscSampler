@@ -1,0 +1,1 @@
+Here's where the log files are stored.
