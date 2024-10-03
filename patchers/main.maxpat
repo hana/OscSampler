@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 2,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"openrect" : [ 385.0, 150.0, 387.0, 204.0 ],
+		"openrect" : [ 385.0, 150.0, 387.0, 224.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -484,7 +484,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 29.0, 311.0, 191.0, 183.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 186.0, 196.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 186.0, 225.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -643,6 +643,7 @@
 			"obj-1::obj-119" : [ "IP_3", "IP_3", 0 ],
 			"obj-1::obj-120" : [ "IP_4", "IP_4", 0 ],
 			"obj-1::obj-121" : [ "live.numbox[1]", "live.numbox[1]", 0 ],
+			"obj-1::obj-13" : [ "live.text[1]", "live.text[1]", 0 ],
 			"obj-1::obj-2" : [ "live.tab", "live.tab", 0 ],
 			"obj-1::obj-7" : [ "live.numbox", "live.numbox", 0 ],
 			"obj-2::obj-144" : [ "live.drop", "live.drop", 0 ],
@@ -667,13 +668,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "240209-131730.txt",
-				"bootpath" : "~/Desktop/OscSampler/log",
-				"patcherrelativepath" : "../log",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "diff.maxpat",
 				"bootpath" : "~/Desktop/OscSampler/patchers",
 				"patcherrelativepath" : ".",
